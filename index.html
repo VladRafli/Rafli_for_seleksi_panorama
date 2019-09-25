@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cupcakes</title>
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+            <header id="header" class="sticky">
+                <div class="container">
+
+                    <img src="http://theluckycupcakecompany.com/wp-content/themes/lcc_2017/assets/images/desserts/Cupcake.png" alt="Cupcakes" class="logo" width="30px" height="30px">
+
+                    <nav>
+                        <ul>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#recipe">Recipe</a></li>
+                            <li><a href="#about-me">About me</a></li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </header>
+        <!--Main Menu-->
+            <h2>Cupcakes!</h2>
+            
+            <p>
+                Who doesn't like cupcakes! <br> <br>
+                Everybody like cupcakes! <br> <br>
+                I would like to show you how to make cupcakes <br> <br>
+                Check the video below <br> <br>
+            </p>
+
+        <iframe 
+            id="video"
+            width="560" 
+            height="315" src="https://www.youtube-nocookie.com/embed/jhmYWNEW-Y8"   frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media;    gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <!--How to make cupcakes-->
+        <h3 id="recipe">How to make cupcakes</h3>
+
+        <h4>Ingredients: </h4>
+        <ul>
+            <li>110g softened butter</li>
+            <li>200g golden caster sugar</li>
+            <li>2 large eggs</li>
+            <li>1 3/4 tsp baking powder</li>
+            <li>2 tsp vanilla extract</li>
+            <li>200g plain flour</li>
+            <li>125 ml milk</li>
+            <li>2 tbsp cocoa powder</li>
+        </ul>
+        <h4>Steps:</h4>
+        <ol>
+            <li>Cream together butter and sugar</li>
+            <li>Beat eggs one at a time...</li>
+            <li>And add vanilla</li>
+            <li>Mix together backing powder and flour</li>
+            <li>Beat into butter mixture in 2 batches</li>
+            <li>Repeat with the milk</li>
+            <li>Combine cocoa powder with water to form a paste</li>
+            <li>Add the paste to half the mixture to make chocolate cupcakes</li>
+            <li>Fill each case 3/4 full</li>
+            <li>Bake 20 to 25 minutes in a 180 degrees celcius oven</li>
+            <li>Let cool and top with your favorite icing</li>
+            <li>Done! you accomplish making cupcakes</li>
+        </ol>
+
+        <!--Subscribe Menu-->
+        <h5>Hey! if you interested in other cupcakes recipe, contact me below...</h5>
+        <form id="form" action="#">
+            <div>
+                <label for="name">* Name:</label>
+                <input
+                    name="name"
+                    id="name"
+                    type="name"
+                    placeholder="Enter  your name"
+                    required
+                />
+            </div>
+            <div>
+                <label for="email">* Email:</label>
+                <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    required
+                />
+            </div>
+         <input id="submit" type="submit" value="Submit" class="btn" />
+        </form>
+        <!--About me-->
+        <h3 id="about-me">About me</h3>
+        <article>
+            <h2>Rafli Athala Jaskandi</h2>
+            <img src="https://yt3.ggpht.com/a-/AAuE7mCaQH7vYcOujoOsWo1FWwJhkMqs5Q34BKV7Pg=s900-mo-c-c0xffffffff-rj-k-no">
+            <p>Binusian 2023, Computer Science. Learn programming since 2017</p>
+        </article>
+        <!--Footer-->
+        <footer>
+            <h4>
+                This is just a prototype that I made just for personal use <br> <br>
+                Do not use this for comercial use!
+            </h4>
+            <p>
+                Created by Rafli Athala Jaskandi <br>
+                Not powered by any framework... :)
+            </p>
+        </footer>
+    </body>
+    <script src="index.js"></script>
+</html>
